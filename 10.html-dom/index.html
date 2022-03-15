@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+
+</head>
+<body>
+    <h1 id="head"></h1>
+    <div class="one"></div>
+    <p class="one"></p>
+    <button onclick="displayAlert()" id="btnClick">Click</button>
+    <script>
+        document.getElementById("head").innerHTML="Welcome to DOM"
+        document.getElementsByClassName("one")[0].innerHTML ="<h1>Hello Guys</h1>"
+        document.getElementsByClassName("one")[0].style.backgroundColor="crimson"
+        document.getElementsByClassName("one")[0].style.color ="white"
+        function displayAlert(){
+            alert('Using display Alert method')
+        }
+    </script>
+</body>
+</html>
