@@ -1,8 +1,9 @@
 Open VSCode from CMD/Powershell - Code .
-2. Open terminal inside VSCode IDE - Ctrl + `
-3. comment code - Ctrl + k + c 
-4. uncomment code - Ctrl + k + u 
-5. create copy of the code - alt +shift + down arrow mark 
-6. To generate Random Code - lorem10 ( number can vary)
-7. To Modify samiliar code at multiple places - use Ctrl + D
-8. Alt + Z - word wrap your text
+Open terminal inside VSCode IDE - Ctrl + `
+To generate Random Code - lorem10 ( number can vary)
+Alt + Z - word wrap your text
+create copy of the code - alt +shift + down arrow mark 
+comment code - Ctrl + k + c 
+uncomment code - Ctrl + k + u 
+To Modify samiliar code at multiple places - use Ctrl + D
+ 

@@ -84,7 +84,7 @@ code - Defines a fragment of computer code
 <del> - is used to identify text that has been deleted from a document
         but retained to show the history of modification to the document
 <ins> - is used when a text that has been inserted into a document
-<cite> - Defins title of some creative work 
+<cite> - Defines title of some creative work 
 <q> - Quotation
 <abbr> - abbreviation
 <address> - To display Address
