@@ -1,0 +1,21 @@
+Emmet Cheat Sheet - https://docs.emmet.io/cheat-sheet/
+
+https://www.w3schools.com/charsets/ref_html_symbols.asp - Symbols
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element - HTML Elements
+
+Colors - https://tutorial.techaltum.com/css-colors.html
+
+https://www.color-name.com/hex/3c00a6 - Find colornames by code
+
+https://www.c-sharpcorner.com/UploadFile/da6585/color-name-in-html5/
+
+https://www.rapidtables.com/web/html/html-codes.html - html codes
+
+https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ - font family
+
+https://getbootstrap.com/docs/5.1/getting-started/download/ - Bootstrap5
+
+https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/ - Captcha
+
+https://www.learningcontainer.com/mp4-sample-video-files-download/ - Sample Audio and video

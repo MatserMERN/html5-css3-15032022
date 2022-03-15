@@ -1,0 +1,37 @@
+Valid Accept Types:
+
+For CSV files (.csv), use:
+
+<input type="file" accept=".csv" />
+
+For Excel Files 97-2003 (.xls), use:
+
+<input type="file" accept="application/vnd.ms-excel" />
+
+For Excel Files 2007+ (.xlsx), use:
+
+<input type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+
+For Text Files (.txt) use:
+
+<input type="file" accept="text/plain" />
+
+For Image Files (.png/.jpg/etc), use:
+
+<input type="file" accept="image/*" />
+
+For HTML Files (.htm,.html), use:
+
+<input type="file" accept="text/html" />
+
+For Video Files (.avi, .mpg, .mpeg, .mp4), use:
+
+<input type="file" accept="video/*" />
+
+For Audio Files (.mp3, .wav, etc), use:
+
+<input type="file" accept="audio/*" />
+
+For PDF Files, use:
+
+<input type="file" accept=".pdf" /> 
