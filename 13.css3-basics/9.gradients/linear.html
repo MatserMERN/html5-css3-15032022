@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradients</title>
+    <style>
+        div {
+            width: 400px;
+            height: 200px;
+            background-color: red; 
+        }
+        div.box1 {
+            background-image: linear-gradient(red, orange);
+        }
+        div.box2 {
+            background-image: linear-gradient(to right, red, orange);
+        }
+        div.box3 {
+            background-image: linear-gradient(to left, red, orange);
+        }
+        div.box4 {
+            background-image: linear-gradient(to top right, red, orange, green);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div> <br>
+    <div class="box2"></div> <br>
+    <div class="box3"></div> <br>
+    <div class="box4"></div> <br>
+</body>
+</html>

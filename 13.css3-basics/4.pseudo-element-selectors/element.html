@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selectors</title>
+    <style>
+        p.one::first-line {
+            color: red;
+            font-variant: small-caps;
+        }
+
+        p.two::first-letter {
+            color: red;
+            font-size: xx-large;
+        }
+        p.three::before {
+            content: "Hello";
+            font-weight: bolder;
+        }
+        p.three::after {
+            content: ", Welcome to Boston";
+            color: blue;
+        }
+        p.four::selection {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis rem iure quod porro maiores eos qui provident nemo laborum molestiae dicta, aliquam, aliquid eligendi dolore reprehenderit! Obcaecati odio recusandae totam ipsum natus atque pariatur eum blanditiis unde tempore cupiditate necessitatibus officia, aut culpa molestiae quis repellat quod quasi sapiente!
+    </p>
+    <p class="two">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis rem iure quod porro maiores eos qui provident nemo laborum molestiae dicta, aliquam, aliquid eligendi dolore reprehenderit! Obcaecati odio recusandae totam ipsum natus atque pariatur eum blanditiis unde tempore cupiditate necessitatibus officia, aut culpa molestiae quis repellat quod quasi sapiente!
+    </p>
+    <p class="three">
+        Mr.Scott Desatnick
+    </p>
+    <p class="four">
+        Selected text background color would turn into yellow and font color would turn into red. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laborum exercitationem nostrum doloremque atque modi, sit aspernatur aperiam consequuntur ducimus!
+    </p>
+</body>
+</html>

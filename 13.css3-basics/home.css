@@ -1,0 +1,6 @@
+/* @import url("./main.css"); */
+@import "./main.css";
+
+h1 {
+    color: blue
+}

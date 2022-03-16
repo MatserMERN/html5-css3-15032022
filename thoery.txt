@@ -213,7 +213,7 @@ muted - will mute the audio
 
 HTML Class
 ----------
-HTML class attribute is used ti specify a class for an element
+HTML class attribute is used to specify a class for an element
 
 multiple HTML elements can share the same class
 
